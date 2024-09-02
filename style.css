@@ -1,0 +1,90 @@
+:root {
+  --clr--accent--400: #ef8094;
+  --clr--primary--200: #eeeeee;
+  --clr--primary--400: #c4c4c4;
+  --clr--primary--900: #4a4a4a;
+  --clr--secondary--400: #f5f8ff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+}
+
+/* CSS RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* UTILITY CLASSES */
+.container {
+  max-width: 1440px;
+  padding: 40px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.btn {
+  padding: 6px 32px;
+  border-radius: 32px;
+  border: 2px solid var(--clr--primary--900);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn--accent {
+  background-color: var(--clr--accent--400);
+  color: white;
+  border: none;
+  padding-block: 8px;
+}
+
+.btn--accent-2 {
+  color: black;
+  border: 2px solid var(--clr--accent--400);
+}
+
+.t-l {
+  font-size: 26px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "DM Serif Display", serif;
+}
+
+h1, h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+a {
+  font-size: 0.875rem;
+}

@@ -33,7 +33,7 @@ ul {
 /* UTILITY CLASSES */
 .container {
   max-width: 1440px;
-  padding: 40px;
+  padding: 20px 40px;
   margin: 0 auto;
   display: flex;
 }
@@ -87,4 +87,17 @@ p {
 
 a {
   font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* NAV */
+.nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__links {
+  display: flex;
+  gap: 64px;
+  align-items: center;
 }

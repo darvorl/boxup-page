@@ -135,9 +135,6 @@ a {
   padding: 12px 40px;
 }
 
-.hero__visual {
-}
-
 /* PLAN */
 .plan {
   flex-direction: column;
@@ -248,4 +245,43 @@ a {
 
 .how-it-works .step:nth-child(3) {
   max-width: 900px;
+}
+
+/* SOCIAL POSTS */
+.social-posts {
+  background-color: var(--clr--secondary--400);
+}
+
+.social-posts .container {
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.social-posts__cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 40px;
+  justify-content: center;
+}
+
+.social-posts__cards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social-posts__cards .card .card__visual {
+  flex-grow: 1;
+}
+
+.social-posts__cards .card .card__visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.social-posts__cards .card p {
+  font-size: 1.625rem;
 }

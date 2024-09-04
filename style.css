@@ -285,3 +285,77 @@ a {
 .social-posts__cards .card p {
   font-size: 1.625rem;
 }
+
+/* FOOTER */
+.footer {
+  max-width: 1440px;
+  padding: 60px 40px;
+  margin: 0 auto;
+}
+
+.footer .container{
+  border-radius: 6px;
+  border: 3px solid var(--clr--primary--400);
+  flex-direction: column;
+  gap: 60px;
+  padding: 0;
+  background-color: var(--clr--primary--200);
+}
+
+.footer hr {
+  color: var(--clr--primary--400);
+  border: 1px solid var(--clr--primary--400);
+  margin: 0 0 -40px 0;
+}
+
+.footer__header {
+  margin-inline: 80px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__header__social {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__header__social a{
+  font-size: 28px;
+}
+
+.footer__content {
+  margin-inline: 80px;
+  display: flex;
+}
+
+.footer__content__column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-right: 180px;
+}
+
+.footer__content__column ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer__footer {
+  margin-inline: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__footer p {
+  font-size: 0.875rem;
+}
+
+.footer__footer__links {
+  font-size: 0.875rem;
+  display: flex;
+  gap: 40px;
+}

@@ -11,7 +11,6 @@ El proyecto de la página de **Upbox** es una landing page moderna y responsiva.
 A través de este proyecto, he mejorado mis habilidades en:
 
 - **Metodología BEM**: Para un CSS más limpio y modular.
-- **Unidades responsivas**: Garantizando que la página se vea bien en cualquier tamaño de pantalla.
 - **Reutilización de clases de CSS**: Optimizando el código y facilitando la gestión de estilos.
 - **Flexbox**: Para la distribución flexible y alineación de elementos.
 - **Grid Layout**: Para crear diseños complejos y adaptables.
